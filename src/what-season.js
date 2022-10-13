@@ -18,9 +18,6 @@ function getSeason(date) {
          if (date === undefined){
             return 'Unable to determine the time of year!'
          } 
-         // if (isNaN(isDate)){
-         //    throw new Error("Invalid date!")
-         // }
       let prototype = Object.keys(date)
          if(prototype.length > 0){
                throw new Error("Invalid date!")
